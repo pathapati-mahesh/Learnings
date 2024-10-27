@@ -1,0 +1,15 @@
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\AddApp\obj\Debug\net8.0\AddApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\AddApp\obj\Debug\net8.0\AddApp.AssemblyInfoInputs.cache
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\AddApp\obj\Debug\net8.0\AddApp.AssemblyInfo.cs
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\AddApp\obj\Debug\net8.0\AddApp.csproj.CoreCompileInputs.cache
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\AddApp\obj\Debug\net8.0\AddApp.sourcelink.json
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\AddApp\bin\Debug\net8.0\AddApp.exe
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\AddApp\bin\Debug\net8.0\AddApp.deps.json
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\AddApp\bin\Debug\net8.0\AddApp.runtimeconfig.json
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\AddApp\bin\Debug\net8.0\AddApp.dll
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\AddApp\bin\Debug\net8.0\AddApp.pdb
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\AddApp\obj\Debug\net8.0\AddApp.dll
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\AddApp\obj\Debug\net8.0\refint\AddApp.dll
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\AddApp\obj\Debug\net8.0\AddApp.pdb
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\AddApp\obj\Debug\net8.0\AddApp.genruntimeconfig.cache
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\AddApp\obj\Debug\net8.0\ref\AddApp.dll
