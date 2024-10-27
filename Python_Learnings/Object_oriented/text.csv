@@ -1,0 +1,8 @@
+name,year,month,date,age,country,domain
+"P Mahesh Kumar",2024,"September","24-08-2024",24,"Germany","Data scientist"
+Example,2024,"OCTOBER","20-10-2024",24,"Germany","Data Analyst"
+Vidhya Sagar,2024,"OCTOBER","20-10-2024",24,"Germany","Data Analyst"
+DEV,2024,OCTOBER,"20-10-2024",24,"Germany","Data Analyst"
+"PROD",2024,"OCTOBER","20-10-2024",24,"Germany","Data Analyst"
+"TEST",2024,"OCTOBER","20-10-2024",24,Germany,"Data Analyst"
+"FINAL",2024,"OCTOBER","20-10-2024",24,"Germany",Data Analyst

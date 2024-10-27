@@ -1,0 +1,5 @@
+Name,COMPANY,QUALIFICATION
+P Mahesh Kumar,Persistent,Btech
+P Chandana,Empasis,Degree
+Vidhyasagar,CGI,Btech
+Likkitha Chowdary,Infosys,Btech
