@@ -1,0 +1,15 @@
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\StringApp\obj\Debug\net8.0\StringApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\StringApp\obj\Debug\net8.0\StringApp.AssemblyInfoInputs.cache
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\StringApp\obj\Debug\net8.0\StringApp.AssemblyInfo.cs
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\StringApp\obj\Debug\net8.0\StringApp.csproj.CoreCompileInputs.cache
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\StringApp\obj\Debug\net8.0\StringApp.sourcelink.json
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\StringApp\bin\Debug\net8.0\StringApp.exe
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\StringApp\bin\Debug\net8.0\StringApp.deps.json
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\StringApp\bin\Debug\net8.0\StringApp.runtimeconfig.json
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\StringApp\bin\Debug\net8.0\StringApp.dll
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\StringApp\bin\Debug\net8.0\StringApp.pdb
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\StringApp\obj\Debug\net8.0\StringApp.dll
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\StringApp\obj\Debug\net8.0\refint\StringApp.dll
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\StringApp\obj\Debug\net8.0\StringApp.pdb
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\StringApp\obj\Debug\net8.0\StringApp.genruntimeconfig.cache
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\StringApp\obj\Debug\net8.0\ref\StringApp.dll
