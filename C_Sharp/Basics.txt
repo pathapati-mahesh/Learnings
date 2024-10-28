@@ -1,0 +1,22 @@
+Date :27/10/2024
+Topics
+1.C# vs .NET 
+2.CLR
+3.Architecture of .NET 
+
+
+1.	C# Vs .NET:
+-----------------------
+
+--->C# is a Programming Language and Dot net is a Framework to build the window applications.
+--->.Net Frame is not Limited to   C# it is used my other programming Languages as well
+--->.NET has two components 1.CLR(Common Language Runtime)
+							2.Class Library
+
+2. CLR :
+----------------------
+--->The Common Language Runtime (CLR) is a core component of the Microsoft .NET Framework that manages
+the execution of .NET applications.
+--->It provides a managed execution environment for code written in various .NET programming 
+languages, including C#, VB.NET, and F#.
+--->
