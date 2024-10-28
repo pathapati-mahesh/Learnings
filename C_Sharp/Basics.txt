@@ -4,7 +4,11 @@ Topics
 2.CLR
 3.Architecture of .NET 
 
-
+----> In 3 Ways we can run the c# Application (only if you are in the dll file generated path)
+	example :"AddApp\bin\Debug\net8.0"
+	1. Using the exe file
+	2. Using the .dll file --->Command to run the dll file is -->dotnet file.dll
+	3. By Using the Project file
 1.	C# Vs .NET:
 -----------------------
 
@@ -19,4 +23,10 @@ Topics
 the execution of .NET applications.
 --->It provides a managed execution environment for code written in various .NET programming 
 languages, including C#, VB.NET, and F#.
---->
+
+3.DLL(Dynamic linked Library)
+-----------------------------------
+---> ??
+
+
+4.
