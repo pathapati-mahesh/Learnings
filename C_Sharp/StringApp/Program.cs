@@ -27,7 +27,7 @@ class convertString
         Console.WriteLine("Result of the Application");
         string dev_name = Console.ReadLine("Enter the Name :");
         string Profession = Console.ReadLine("Enter your Working Profession :");
-        while ((dev_name!=null) || (Profession!=null) )
+        if ((dev_name!=null) || (Profession!=null) )
         {
             string callFunc = convertName(dev_name, Profession);
             Console.WriteLine(callFunc);
