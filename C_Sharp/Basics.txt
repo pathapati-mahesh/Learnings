@@ -136,3 +136,82 @@ OVER FLOWING:
 	For example :
 				int maxInt = int.MaxValue;
 				int overflowedValue = maxInt + 1;
+
+	How can we stop Overflowing?
+	***************************
+	Using the checked Keyword using this the overflow wont happen at run time But an Exception will be thrown 
+	and the program will crash unless we handle the exception
+
+	Syntax:
+		checked{
+			//Block of code
+		}
+
+Scope:
+*****
+	Scope is nothing but accesing a Variable/constant with in the program/classes. It depends where we intialized the 
+	variable and till which block we can acccess it.
+
+	Example:
+		{
+			int a=10;---> A is accesible in entire Block whereas b and c has limited access with in the block
+			{
+				int b=10;
+				{
+					int c=01;
+				}
+			}
+		}
+
+Declaring the variables in a single line with the same type :
+***********************************************************
+	Example : string name,city,nationality,state,profession="Mahesh","Frankfurt","Indian","Hesse","Student";
+
+	In the above example I declared all the variables in one statement because those are all same type also I can access the values 
+	assigned to it individually.
+	
+Type Conversion:
+****************
+There are three types of convesion
+	1. Implicit conversion
+	2. explicit conversion
+	3. Conversion betweeen Non Compatable Types
+
+1. Implicit Conversion:
+***********************
+	In Implicit conversion we are not going to take care of converting the type of data. It will be done by the compiler
+	while building the application itself. This is so called implicit conversion.
+	Example:
+	*******
+	static int implicitConversion()
+        {
+            byte number = 1;
+            int num = number;
+            return num;
+        }
+2. Explicit Conversion:
+***********************
+	Incase of Explicit conversion we have the data loss as we are forecefully converting the datatype of the value
+	from one to the another.
+
+	Syntax : 
+	*******
+		(data Type) 'variable/value that we are trying to convert'
+
+	Example:
+	********
+		static int explicitConversion()
+        {
+            int num = 200;
+            byte number = (byte)num;
+            return number;
+        }
+
+	Note:
+		In this case sometimes the dataloss chances are there But not in All cases. If we have the data/value that we are storing
+		in within the range of the value then there is no Dataloss. 
+           
+
+3.Converting the datatypes in case of In compatable types:
+**********************************************************
+

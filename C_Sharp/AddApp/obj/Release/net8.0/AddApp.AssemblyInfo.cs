@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AddApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd177ba313beffc53f9f33001b7919e1d2a02ef1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e7fc40e6f72463ae268a8d3c8e209ad3c1429475")]
 [assembly: System.Reflection.AssemblyProductAttribute("AddApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AddApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
