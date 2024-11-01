@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MethodsApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d81294cf2ea0d12457ae848e432e2155d306c298")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74c7c50364dee686a44e91b9bc35b930ba92ff09")]
 [assembly: System.Reflection.AssemblyProductAttribute("MethodsApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MethodsApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
