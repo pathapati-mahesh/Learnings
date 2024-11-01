@@ -189,6 +189,7 @@ There are three types of convesion
             int num = number;
             return num;
         }
+
 2. Explicit Conversion:
 ***********************
 	Incase of Explicit conversion we have the data loss as we are forecefully converting the datatype of the value
@@ -214,4 +215,13 @@ There are three types of convesion
 
 3.Converting the datatypes in case of In compatable types:
 **********************************************************
+	/*Conversion betweeen Non Compatable Types it will be done by using a Module called as "convert"*/
+
+	static bool convertIncompTypes()
+	{
+		string value = "true";
+		bool expression=Convert.ToBoolean(value);
+		return expression;
+	}
+
 

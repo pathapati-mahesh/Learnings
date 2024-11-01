@@ -34,12 +34,19 @@ namespace BasicProgram
             return num;
         }
 
-        static int convertIncompTypes()
+        static bool convertIncompTypebool(int value)
         {
             /*
               Conversion betweeen Non Compatable Types it will be done by using a Module called as "convert"
 
              */
+            bool expression=Convert.ToBoolean(value);
+            return expression;
+        }
+        static int convertIncompTypeint(string Code)
+        {
+            int ConvCode = Convert.ToInt32(Code);
+            return ConvCode;
         }
         static int explicitConversion()
         {
@@ -67,6 +74,8 @@ namespace BasicProgram
             Console.WriteLine($"Implicit Conversion :{implicitConv}");
             int explicitConv = explicitConversion();
             Console.WriteLine($"Explicit Conversion :{explicitConv}");
+            Console.WriteLine($"Converting Incompatable Type string value to Boolean Value :{convertIncompTypebool(1)}");
+            Console.WriteLine($"Converting Incompatable Type string value to int Value :{convertIncompTypeint("909090")}");
         }
     }
 }
