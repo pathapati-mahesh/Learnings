@@ -236,6 +236,11 @@ Non Primitive Types:
 	***************
 
 
-2.Strings--->
-3.Arrays
+2.Strings	---> Once we create the string we cannot change them. Strings are immutable
+3.Arrays	---> Array is a container to store the values and variables of same type. we can set the size of an Array
+	syntax:
+		int[] Numbers=new int[3];
+		string[] Names=new string[6];
+		bool[] flags=new bool[2];
+
 4.Enums

@@ -23,7 +23,9 @@ namespace OperatorsApp
                 Console.WriteLine($"Remainder of Two Numbers :{methods.RemaindeFunc(3, 2)}");
                 Console.WriteLine($"Increment of Two Numbers (Preincrement & Post Increment) :{methods.IncrementFunc(2, 1)}");
                 Console.WriteLine($"Increment of Two Numbers (Pre Decrement & Post Decrement) :{methods.DecrementFunc(2, 1)}");
-                Console.WriteLine("------------------------------------------------------------------------------------------");
+
+                Console.WriteLine("---------------------------------------Classes_Structs---------------------------------------------------");
+
                 Console.WriteLine($"Accessing the static Method Directly using the class Name with out creating the object");
                 Console.WriteLine($"Even if we create we cannot be able to access the static methods declared inside the class");
                 Console.WriteLine($"Accessing the static Method Directly using the class Name with out creating the object");
@@ -35,12 +37,17 @@ namespace OperatorsApp
                 Console.WriteLine($"Employee Name One :{emp1.Name} & Employee Name Two :{emp2.Name}");
                 StructProgram classCreated = new StructProgram();
                 classCreated.EmpInformation();
-                ArraySession arraysExamples =new ArraySession();
+                Console.WriteLine("------------------------------------Arrays----------------------------------------");
+                ArraySession arraysExamples = new ArraySession();
                 int age = arraysExamples.LearnArrays();
                 Console.WriteLine(age);
                 arraysExamples.RotateArray();
-                Console.WriteLine("------------------------------------Arrays----------------------------------------");
-                
+                Console.WriteLine(arraysExamples.ReturnString());
+                Console.WriteLine("------------------------------------Strings---------------------------------------");
+                Console.WriteLine(arraysExamples.ReturnName());
+
+                Console.WriteLine(arraysExamples.JoinMethod());
+
 
 
             }
