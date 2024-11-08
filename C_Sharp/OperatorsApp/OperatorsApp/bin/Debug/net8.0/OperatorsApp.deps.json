@@ -8,15 +8,33 @@
     ".NETCoreApp,Version=v8.0": {
       "OperatorsApp/1.0.0": {
         "dependencies": {
-          "ChildOperatorsFile": "1.0.0"
+          "ArraysExamples": "1.0.0",
+          "ChildOperatorsFile": "1.0.0",
+          "ClassAndStruct": "1.0.0"
         },
         "runtime": {
           "OperatorsApp.dll": {}
         }
       },
+      "ArraysExamples/1.0.0": {
+        "runtime": {
+          "ArraysExamples.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "ChildOperatorsFile/1.0.0": {
         "runtime": {
           "ChildOperatorsFile.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ClassAndStruct/1.0.0": {
+        "runtime": {
+          "ClassAndStruct.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -30,7 +48,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "ArraysExamples/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "ChildOperatorsFile/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassAndStruct/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

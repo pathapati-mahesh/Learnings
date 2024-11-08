@@ -225,3 +225,17 @@ There are three types of convesion
 	}
 
 
+Non Primitive Types:
+---------------------
+1.Classes :
+***********
+	Blueprints to create objects and its properties.Structs are as same as Classes but class is a Reference Type,
+	whereas Struct is a Value Type.
+
+	Sample Program:
+	***************
+
+
+2.Strings--->
+3.Arrays
+4.Enums

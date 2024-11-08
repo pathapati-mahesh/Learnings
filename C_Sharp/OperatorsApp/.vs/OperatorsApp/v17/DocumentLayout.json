@@ -7,8 +7,16 @@
       "RelativeMoniker": "D:0:0:{58B03331-A8A5-4945-90AB-EB7396144A17}|OperatorsApp\\OperatorsApp.csproj|solutionrelative:operatorsapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E4669A3C-5F0F-4914-9F00-D47F80886C85}|ClassAndStruct\\ClassAndStruct.csproj|c:\\users\\prmah\\onedrive\\desktop\\testing\\learnings\\c_sharp\\operatorsapp\\classandstruct\\struct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E4669A3C-5F0F-4914-9F00-D47F80886C85}|ClassAndStruct\\ClassAndStruct.csproj|solutionrelative:classandstruct\\struct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{84E337BC-D5E1-41A3-9C3D-AC2A7416EADD}|ChildOperatorsFile\\ChildOperatorsFile.csproj|c:\\users\\prmah\\onedrive\\desktop\\testing\\learnings\\c_sharp\\operatorsapp\\childoperatorsfile\\methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{84E337BC-D5E1-41A3-9C3D-AC2A7416EADD}|ChildOperatorsFile\\ChildOperatorsFile.csproj|solutionrelative:childoperatorsfile\\methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A1F13AA-9EB9-4403-99BA-3BCBB21233A2}|ArraysExamples\\ArraysExamples.csproj|c:\\users\\prmah\\onedrive\\desktop\\testing\\learnings\\c_sharp\\operatorsapp\\arraysexamples\\arraysession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A1F13AA-9EB9-4403-99BA-3BCBB21233A2}|ArraysExamples\\ArraysExamples.csproj|solutionrelative:arraysexamples\\arraysession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +26,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Struct.cs",
+              "DocumentMoniker": "C:\\Users\\prmah\\OneDrive\\Desktop\\Testing\\Learnings\\C_Sharp\\OperatorsApp\\ClassAndStruct\\Struct.cs",
+              "RelativeDocumentMoniker": "ClassAndStruct\\Struct.cs",
+              "ToolTip": "C:\\Users\\prmah\\OneDrive\\Desktop\\Testing\\Learnings\\C_Sharp\\OperatorsApp\\ClassAndStruct\\Struct.cs",
+              "RelativeToolTip": "ClassAndStruct\\Struct.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T10:00:17.791Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -30,15 +52,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Methods.cs",
               "DocumentMoniker": "C:\\Users\\prmah\\OneDrive\\Desktop\\Testing\\Learnings\\C_Sharp\\OperatorsApp\\ChildOperatorsFile\\Methods.cs",
               "RelativeDocumentMoniker": "ChildOperatorsFile\\Methods.cs",
               "ToolTip": "C:\\Users\\prmah\\OneDrive\\Desktop\\Testing\\Learnings\\C_Sharp\\OperatorsApp\\ChildOperatorsFile\\Methods.cs",
               "RelativeToolTip": "ChildOperatorsFile\\Methods.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAkwCUAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-01T07:43:06.691Z",
+              "WhenOpened": "2024-11-07T09:43:00.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ArraySession.cs",
+              "DocumentMoniker": "C:\\Users\\prmah\\OneDrive\\Desktop\\Testing\\Learnings\\C_Sharp\\OperatorsApp\\ArraysExamples\\ArraySession.cs",
+              "RelativeDocumentMoniker": "ArraysExamples\\ArraySession.cs",
+              "ToolTip": "C:\\Users\\prmah\\OneDrive\\Desktop\\Testing\\Learnings\\C_Sharp\\OperatorsApp\\ArraysExamples\\ArraySession.cs",
+              "RelativeToolTip": "ArraysExamples\\ArraySession.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T23:02:32.437Z",
               "EditorCaption": ""
             },
             {
@@ -49,7 +84,7 @@
               "RelativeDocumentMoniker": "OperatorsApp\\Program.cs",
               "ToolTip": "C:\\Users\\prmah\\OneDrive\\Desktop\\Testing\\Learnings\\C_Sharp\\OperatorsApp\\OperatorsApp\\Program.cs",
               "RelativeToolTip": "OperatorsApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABxAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBQAAABiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-01T07:42:09.348Z",
               "EditorCaption": ""

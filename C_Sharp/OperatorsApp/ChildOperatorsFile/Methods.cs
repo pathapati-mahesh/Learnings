@@ -1,4 +1,6 @@
-﻿namespace ChildOperatorsFile
+﻿using System.Security.AccessControl;
+
+namespace ChildOperatorsFile
 {
     public class Methods
     {
@@ -35,6 +37,9 @@
             int PreDecrementOpp = (--a) + (--b);
             int SumOfBoth = PreDecrementOpp + PostDecrementOpp;
             return SumOfBoth;
+        }
+        public static int converter(int a, int b) {
+            return a *2;
         }
     }
 }

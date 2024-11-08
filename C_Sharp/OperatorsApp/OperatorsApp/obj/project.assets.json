@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "ArraysExamples/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ArraysExamples.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ArraysExamples.dll": {}
+        }
+      },
       "ChildOperatorsFile/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -11,19 +21,41 @@
         "runtime": {
           "bin/placeholder/ChildOperatorsFile.dll": {}
         }
+      },
+      "ClassAndStruct/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/ClassAndStruct.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClassAndStruct.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "ArraysExamples/1.0.0": {
+      "type": "project",
+      "path": "../ArraysExamples/ArraysExamples.csproj",
+      "msbuildProject": "../ArraysExamples/ArraysExamples.csproj"
+    },
     "ChildOperatorsFile/1.0.0": {
       "type": "project",
       "path": "../ChildOperatorsFile/ChildOperatorsFile.csproj",
       "msbuildProject": "../ChildOperatorsFile/ChildOperatorsFile.csproj"
+    },
+    "ClassAndStruct/1.0.0": {
+      "type": "project",
+      "path": "../ClassAndStruct/ClassAndStruct.csproj",
+      "msbuildProject": "../ClassAndStruct/ClassAndStruct.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "ChildOperatorsFile >= 1.0.0"
+      "ArraysExamples >= 1.0.0",
+      "ChildOperatorsFile >= 1.0.0",
+      "ClassAndStruct >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -53,8 +85,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\prmah\\OneDrive\\Desktop\\Testing\\Learnings\\C_Sharp\\OperatorsApp\\ArraysExamples\\ArraysExamples.csproj": {
+              "projectPath": "C:\\Users\\prmah\\OneDrive\\Desktop\\Testing\\Learnings\\C_Sharp\\OperatorsApp\\ArraysExamples\\ArraysExamples.csproj"
+            },
             "C:\\Users\\prmah\\OneDrive\\Desktop\\Testing\\Learnings\\C_Sharp\\OperatorsApp\\ChildOperatorsFile\\ChildOperatorsFile.csproj": {
               "projectPath": "C:\\Users\\prmah\\OneDrive\\Desktop\\Testing\\Learnings\\C_Sharp\\OperatorsApp\\ChildOperatorsFile\\ChildOperatorsFile.csproj"
+            },
+            "C:\\Users\\prmah\\OneDrive\\Desktop\\Testing\\Learnings\\C_Sharp\\OperatorsApp\\ClassAndStruct\\ClassAndStruct.csproj": {
+              "projectPath": "C:\\Users\\prmah\\OneDrive\\Desktop\\Testing\\Learnings\\C_Sharp\\OperatorsApp\\ClassAndStruct\\ClassAndStruct.csproj"
             }
           }
         }

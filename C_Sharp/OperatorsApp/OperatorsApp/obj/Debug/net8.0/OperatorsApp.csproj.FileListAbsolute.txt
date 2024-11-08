@@ -17,3 +17,7 @@ C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\OperatorsApp\Operators
 C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\OperatorsApp\OperatorsApp\obj\Debug\net8.0\OperatorsApp.pdb
 C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\OperatorsApp\OperatorsApp\obj\Debug\net8.0\OperatorsApp.genruntimeconfig.cache
 C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\OperatorsApp\OperatorsApp\obj\Debug\net8.0\ref\OperatorsApp.dll
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\OperatorsApp\OperatorsApp\bin\Debug\net8.0\ClassAndStruct.dll
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\OperatorsApp\OperatorsApp\bin\Debug\net8.0\ClassAndStruct.pdb
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\OperatorsApp\OperatorsApp\bin\Debug\net8.0\ArraysExamples.dll
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\OperatorsApp\OperatorsApp\bin\Debug\net8.0\ArraysExamples.pdb

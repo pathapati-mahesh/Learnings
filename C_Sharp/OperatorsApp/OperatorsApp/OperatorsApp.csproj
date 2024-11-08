@@ -8,7 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ArraysExamples\ArraysExamples.csproj" />
     <ProjectReference Include="..\ChildOperatorsFile\ChildOperatorsFile.csproj" />
+    <ProjectReference Include="..\ClassAndStruct\ClassAndStruct.csproj" />
   </ItemGroup>
 
 </Project>
