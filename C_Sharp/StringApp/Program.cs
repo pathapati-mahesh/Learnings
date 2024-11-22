@@ -25,8 +25,8 @@ class convertString
     static void Main(string[] args)
     {
         Console.WriteLine("Result of the Application");
-        string dev_name = Console.ReadLine();
-        string Profession = Console.ReadLine();
+        string dev_name = Console.ReadLine("Enter the Name :");
+        string Profession = Console.ReadLine("Enter your Working Profession :");
         if ((dev_name!=null) || (Profession!=null) )
         {
             string callFunc = convertName(dev_name, Profession);

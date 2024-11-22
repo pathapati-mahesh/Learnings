@@ -1,0 +1,12 @@
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\OperatorsApp\ChildOperatorsFile\bin\Debug\net8.0\ChildOperatorsFile.deps.json
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\OperatorsApp\ChildOperatorsFile\bin\Debug\net8.0\ChildOperatorsFile.dll
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\OperatorsApp\ChildOperatorsFile\bin\Debug\net8.0\ChildOperatorsFile.pdb
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\OperatorsApp\ChildOperatorsFile\obj\Debug\net8.0\ChildOperatorsFile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\OperatorsApp\ChildOperatorsFile\obj\Debug\net8.0\ChildOperatorsFile.AssemblyInfoInputs.cache
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\OperatorsApp\ChildOperatorsFile\obj\Debug\net8.0\ChildOperatorsFile.AssemblyInfo.cs
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\OperatorsApp\ChildOperatorsFile\obj\Debug\net8.0\ChildOperatorsFile.csproj.CoreCompileInputs.cache
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\OperatorsApp\ChildOperatorsFile\obj\Debug\net8.0\ChildOperatorsFile.sourcelink.json
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\OperatorsApp\ChildOperatorsFile\obj\Debug\net8.0\ChildOperatorsFile.dll
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\OperatorsApp\ChildOperatorsFile\obj\Debug\net8.0\refint\ChildOperatorsFile.dll
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\OperatorsApp\ChildOperatorsFile\obj\Debug\net8.0\ChildOperatorsFile.pdb
+C:\Users\prmah\OneDrive\Desktop\Testing\Learnings\C_Sharp\OperatorsApp\ChildOperatorsFile\obj\Debug\net8.0\ref\ChildOperatorsFile.dll
