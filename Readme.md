@@ -30,7 +30,7 @@ Make sure the following Python libraries are installed:
 - `tabula-py==2.10.0`
 - `tabulate==0.9.0`
 - `tzdata==2024.2`
-  You can install above libraries using pip:
+You can install above libraries using pip:
 
 ```bash
 pip install -r requirements.txt
