@@ -114,12 +114,6 @@ if __name__ == '__main__':
 - Ensure PDFs are formatted consistently.
 - Verify locale settings (`deu`) for proper date parsing.
 
-## License
-
-This project is licensed under the MIT License.
-
 ## Author
 
-**Your Name Here**
-
-Feel free to contribute or raise issues!
+**P Mahesh Kumar**
