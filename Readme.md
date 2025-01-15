@@ -1,119 +1,84 @@
-# DataExtraction Class Documentation
+# ML 24/25-09 Creating Text from images with OCR API
 
 ## Overview
 
-The `DataExtraction` class is designed to extract data from invoice PDF files, process the data into structured formats, and export the results into Excel and CSV files.
+This project involves developing an OCR (Optical Character Recognition) solution using the Tesseract SDK. The application preprocesses images (e.g., shifting, rotating, adjusting) and extracts text from them. The goal is to evaluate the impact of preprocessing methods on the quality of text extraction.
 
-## Features
+The final product is a console application that:
 
-- Extracts data from invoice PDFs using `tabula` and `PyPDF2`.
-- Processes invoice details like total amount and invoice date.
-- Outputs data as Pandas DataFrames.
-- Exports results to Excel and CSV formats.
+- Accepts various parameters for input and preprocessing methods.
+- Outputs extracted text for each preprocessing method.
+- Compares the quality of the extracted text between preprocessing methods.
 
-## Requirements
+## Architecture
 
-Make sure the following Python libraries are installed:
+The solution is designed with modular components to ensure scalability and maintainability. Below is an overview of the architecture:
 
-- `distro==1.9.0`
-- `et_xmlfile==2.0.0`
-- `numpy==2.2.1`
-- `openpyxl==3.1.5`
-- `pandas==2.2.3`
-- `pip==24.3.1`
-- `PyPDF2==3.0.1`
-- `python-dateutil==2.9.0`
-- `pytz==2024.2`
-- `setuptools==63.2.0`
-- `six==1.17.0`
-- `tabula==1.0.5`
-- `tabula-py==2.10.0`
-- `tabulate==0.9.0`
-- `tzdata==2024.2`
-You can install above libraries using pip:
+1. **Input Handling**:
 
-```bash
-pip install -r requirements.txt
-```
+   - Reads images from an input folder specified by the user.
+   - Supports multiple image formats.
 
-## Class Methods
+2. **Preprocessing Module**:
 
-### Constructor
+   - Applies transformations such as rotation, brightness adjustment, and deskewing to input images.
 
-```python
-__init__(**kwargs)
-```
+   - **Methods Used**
 
-- **Parameters:**
-  - `invoice_pdf1`: Path to the first invoice PDF file.
-  - `invoice_pdf2`: Path to the second invoice PDF file.
-- **Description:** Initializes the class with PDF file paths.
+     * **Grayscale Coversion**
 
-### get_connection_str(path, file_name)
+       * Grayscale image conversion helps streamline the image data and lower the processing requirements for some algorithms.
 
-- **Parameters:**
-  - `path`: Absolute path of the invoice PDF.
-  - `file_name`: Name of the invoice PDF.
-- **Description:** Reads the PDF file using `tabula` (for structured PDFs) or `PyPDF2` (for text extraction).
-- **Returns:** List of DataFrames or a `PdfReader` object.
+     * **Binarization**
 
-### get_filename(invoice_file_name)
+       * Converting the image to back and white format by thresholding.
 
-- **Parameters:**
-  - `invoice_file_name`: Path to the PDF file.
-- **Description:** Extracts the file name without the extension.
-- **Returns:** File name as a string.
+     * **Noise Removal**
 
-### get_absfile_path(invoice_file_name)
+       * Image filters are used to reduce noise, sharpen details, and overall improve the quality of images before text analysis.
 
-- **Parameters:**
-  - `invoice_file_name`: Path to the PDF file.
-- **Description:** Returns the absolute path of the file.
-- **Returns:** Absolute file path as a string.
+     * **Deskewing**
 
-### convert_date(format_type, date_time)
+       * Its important to straighten the read image to extract the exact data from image.
 
-- **Parameters:**
-  - `format_type`: Either 'German' or 'No'.
-  - `date_time`: Date string to be formatted.
-- **Description:** Converts date formats into `dd-MMMM-yyyy`.
-- **Returns:** Formatted date string.
+     * **Resizing**
 
-### format_invoice2(abs_filePath, abs_fileName)
+       * Images come in all shapes and sizes, but machine learning algorithms typically require a standard size.
+       * Resize and crop the images to square dimensions, often 224x224 or 256x256 pixels.
 
-- **Parameters:**
-  - `abs_filePath`: Absolute path of the invoice file.
-  - `abs_fileName`: invoice File name.
-- **Description:** Extracts `Total USD` and `Invoice Date` from PDF2 and returns a DataFrame.
-- **Returns:** Pandas DataFrame with `File Name`, `Date`, and `Value`.
+     * **Normalization**
 
-### get_data()
+       * While working with images, it's important to Normalize the pixel values(0 and 1) to have consistent brightness and improve contrast.
 
-- **Description:** Extracts data from both invoice PDFs, merges them into a single DataFrame, and saves results to Excel and CSV files.
-- **Returns:** Merged DataFrame with `File Name`, `Date`, and `Value`.
+3. **OCR Module**:
 
-## Usage Example
+   - Leverages the Terrasect SDK to extract text from both raw and preprocessed images.
 
-```python
-if __name__ == '__main__':
-    invoice_file_name1 = "sample_invoice_1.pdf"
-    invoice_file_name2 = "sample_invoice_2.pdf"
-    extract_data = DataExtraction(invoice_pdf1=invoice_file_name1, invoice_pdf2=invoice_file_name2)
-    extract_data.get_data()
-```
+4. **Comparison and Output Module**:
+   - Compares extracted text quality across preprocessing methods.
+   - Outputs results to specified folders or console.
 
-## Outputs
+### Technologies Used
 
-- **Excel File:** `invoice_excel.xlsx`
-  - Sheet 1: Raw data from both PDFs.
-  - Sheet 2: Pivot table summarizing the data.
-- **CSV File:** `Total.csv` (semicolon-separated).
+1. **Programming Language**:
 
-## Notes
+   - **C#**: The primary programming language for building the console application.
 
-- Ensure PDFs are formatted consistently.
-- Verify locale settings (`deu`) for proper date parsing.
+2. **SDK and Libraries**:
 
-## Author
+   - **Tesseract SDK**: Used for Optical Character Recognition (OCR) to extract text from images. ([Tesseract by charlesw](https://www.nuget.org/packages/tesseract/))
 
-**P Mahesh Kumar**
+3. **Framework**:
+
+   - **.NET 9**: Framework for building and running the console application.
+
+4. **Development Tools**:
+   - **Visual Studio 2022**: Integrated Development Environment (IDE) for writing, testing, and debugging the code.
+   - **MSTest**: Framework for unit testing the application's logic.
+
+
+## Results
+- The results section will include findings on the effectiveness of various preprocessing methods and their impact on text extraction quality. This will be updated as development progresses.
+
+
+
