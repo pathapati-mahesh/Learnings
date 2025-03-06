@@ -27,7 +27,10 @@ class Post:
 
     def identif_odd_sequence(self):
         for i in range(len(self.sequence)):
+            logger.warning("started")
+            logger.info("Its odd")
             if self.sequence[i]%2!=0:
+
                 self.odd_sequence.append(self.sequence[i])
                 Post.data.append(self.sequence[i])
         # print(self.odd_sequence)
