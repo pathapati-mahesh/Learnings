@@ -1,6 +1,6 @@
 from unittest import TestCase
 
-from BLOG.post import Post
+from test.post import Post
 
 
 class Blog:
@@ -18,8 +18,6 @@ class Blog:
         self.posts.append(Post(title,content))
 
     def json(self):
-        for p in self.posts:
-            print(p.json())
         return {
             "title":self.title,
             "content":self.content,

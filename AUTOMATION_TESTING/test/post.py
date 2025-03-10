@@ -3,7 +3,6 @@ from venv import logger
 
 
 class Post:
-    data=list()
     def __init__(self, title:str, content:str):
         self.title = title
         self.content = content
