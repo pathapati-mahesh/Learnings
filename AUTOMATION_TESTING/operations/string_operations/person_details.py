@@ -1,32 +1,6 @@
-from torch.utils.hipify.hipify_python import value
-
-
-class Calculator:
-
-    def __init__(self,sum1,sum2):
-        self.number1=sum1
-        self.number2=sum2
-
-    def add(self):
-        return self.number1+self.number2
-
-    def sub(self):
-        return self.number2-self.number1
-
-    def modulus(self):
-        return self.number2%self.number1
-
-    def divide(self):
-        return self.number2/self.number1
-
-    def multiplication(self):
-        return self.number2*self.number1
-
-    def square(self):
-        return self.number2**self.number1
-
 class PersonDetails:
-    def __init__(self,name,age,profession):
+    def __init__(self,name:str,age:int,profession:str):
+        assert age > 0, "Age has to be greater than 0"
         self.__name=name
         self.__age=age
         self.__profession=profession
@@ -54,7 +28,7 @@ class PersonDetails:
 
     @age.setter
     def age(self,value):
-        assert  value>0,"Age has to be greater than 0"
+
         self.__age=value
 
     @property

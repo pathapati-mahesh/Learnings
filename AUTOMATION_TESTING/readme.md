@@ -11,6 +11,9 @@
 
 ## How to run a pytest and how it works?
 - By just entering the command as `pytest` in the terminal. pytest framework automatically starts the execution of tests by finding the filenames prefixed with `test_* or *_test`
+
+## Components of pytest
+- assert ``one single statement is enough to compare either normal values or dictionaries or even lists or tuples or arrays``
 ## What is Unit testing?
 - Unit tests test individual units (modules, functions, classes) in isolation from the rest of the program.
 - Since these unit tests validate only the individual units, only desired unit/class should be initialized in the test classes. 
