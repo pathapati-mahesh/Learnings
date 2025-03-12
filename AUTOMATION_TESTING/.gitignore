@@ -1,10 +1,7 @@
-venv
-modules.xml
-misc.xml
-vcs.xml
-profiles_settings.xml
-Project_Default.xml
-AUTOMATION_TESTING.iml
 # Default ignored files
 /shelf/
 /workspace.xml
+*.log
+venv
+
+
