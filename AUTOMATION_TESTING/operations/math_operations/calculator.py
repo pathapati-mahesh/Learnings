@@ -33,3 +33,8 @@ class Calculator:
                 even_sequence.append(i)
         return even_sequence
 
+    @staticmethod
+    def lambda_fun(num1, num2):
+        expression=lambda x:num1+num2
+        print(expression)
+        return expression

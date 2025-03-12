@@ -27,4 +27,8 @@ class TestCalculator:
         assert calc.square() == (20**10)
 
     def test_even_sequence(self,calc):
+
         assert calc.return_even() == [10,12,14,16,18]
+
+    def test_lambda_fun(self,calc):
+        assert  calc.lambda_fun(10,20)==30
