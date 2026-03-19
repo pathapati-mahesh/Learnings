@@ -74,23 +74,63 @@ def create_retriever(vectorstore: FAISS, llm: ChatOpenAI) -> ContextualCompressi
     )
 
 
-def get_source_pages(docs: List[Document]) -> List[int]:
+def find_exact_pages(
+    query: str,
+    retrieved_docs,
+    tree_results,
+    embeddings,
+):
     """
-    Collect unique page numbers from retrieved documents.
-    Works for both leaf nodes (single 'page') and summary nodes ('pages' list).
-    Returns sorted, deduplicated page numbers, or [] if none found.
+    Return only the exact page(s) where the answer actually lives.
+
+    Leaf nodes (raptor_level 0) have one page — use it directly.
+    Summary nodes (raptor_level >= 1) carry a large pages list — re-rank
+    those candidate leaf pages by cosine similarity to the query and keep
+    only the best match.
     """
-    pages = set()
-    for doc in docs:
-        m = doc.metadata
-        # leaf nodes store a single page number
-        if m.get("page") is not None:
-            pages.add(int(m["page"]) + 1)   # PyPDFLoader uses 0-based pages → make 1-based
-        # summary nodes store an aggregated list
-        for p in (m.get("pages") or []):
+    exact_pages = set()
+
+    # page -> leaf text from level-0
+    leaf_df = tree_results.get(0, __import__("pandas").DataFrame())
+    page_to_text = {}
+    if not leaf_df.empty:
+        for _, row in leaf_df.iterrows():
+            p = row["metadata"].get("page")
             if p is not None:
-                pages.add(int(p))
-    return sorted(pages)
+                page_to_text[int(p)] = str(row["text"])
+
+    query_emb = __import__("numpy").array(embeddings.embed_query(query))
+
+    for doc in retrieved_docs:
+        m     = doc.metadata
+        level = m.get("raptor_level", 0)
+
+        if level == 0:
+            p = m.get("page")
+            if p is not None:
+                exact_pages.add(int(p) + 1)   # 0-based -> 1-based
+        else:
+            candidates = [int(p) for p in (m.get("pages") or []) if p is not None]
+            if not candidates:
+                continue
+            best_score, best_page = -1.0, None
+            for p in candidates:
+                leaf_text = page_to_text.get(p)
+                if not leaf_text:
+                    continue
+                import numpy as _np
+                leaf_emb = _np.array(embeddings.embed_query(leaf_text))
+                score = float(
+                    _np.dot(query_emb, leaf_emb)
+                    / (_np.linalg.norm(query_emb) * _np.linalg.norm(leaf_emb) + 1e-9)
+                )
+                if score > best_score:
+                    best_score, best_page = score, p
+            if best_page is not None:
+                exact_pages.add(best_page + 1)   # 0-based -> 1-based
+
+    return sorted(exact_pages)
+
 
 
 # ── main class ─────────────────────────────────────────────────────────────
@@ -195,8 +235,10 @@ class RAPTORMethod:
 
         relevant_docs = retriever.get_relevant_documents(query)
 
-        # ── page numbers ───────────────────────────────────────────────
-        source_pages = get_source_pages(relevant_docs)
+        # ── exact page(s) where the answer actually lives ─────────────
+        source_pages = find_exact_pages(
+            query, relevant_docs, self.tree_results, self.embeddings
+        )
 
         # ── answer ─────────────────────────────────────────────────────
         context = "\n\n".join(d.page_content for d in relevant_docs)
